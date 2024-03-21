@@ -1,0 +1,56 @@
+###> composer ###
+vendor/
+###< composer ###
+
+###> node ###
+node_modules/
+###< node ###
+
+###> php tool cache ###
+.php-cs-fixer.cache
+.phpunit.cache
+.phpunit.result.cache
+###< php tool cache ###
+
+###> phpdocumentor ###
+.phpdoc/
+/phpdoc/
+###< phpdocumentor ###
+
+###> systems ###
+__MACOSX
+.DS_Store
+###< systems ###
+
+###> ide ###
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.buildpath
+.project
+*.clpprj
+*.csprj
+nbproject/*
+/nbproject/private/
+.settings
+.idea/
+.fleet/
+.vscode/
+.history/
+*.code-workspace
+.vs/
+*.phpproj
+###< ide ###
+
+###> convertinidev ###
+/composer.lock
+/package-lock.json
+/pnpm-lock.yaml
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+###< convertinidev ###
