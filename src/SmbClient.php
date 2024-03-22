@@ -1,6 +1,9 @@
 <?php
 
+namespace ConvertiniDev;
+
 use Icewind\SMB\AnonymousAuth;
+use Icewind\SMB\BasicAuth;
 use Icewind\SMB\Exception\InvalidTypeException;
 use Icewind\SMB\Exception\NotFoundException;
 use Icewind\SMB\IAuth;
@@ -10,7 +13,6 @@ use Icewind\SMB\IShare;
 use Icewind\SMB\KerberosAuth;
 use Icewind\SMB\Options;
 use Icewind\SMB\ServerFactory;
-use Icewind\SMB\BasicAuth;
 
 class SmbClient
 {
